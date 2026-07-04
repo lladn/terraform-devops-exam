@@ -1,0 +1,24 @@
+# Local 
+**/.terraform/*
+
+#  secrets
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+#  credentials
+*.tfvars
+*.tfvars.json
+
+# Override 
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+.terraformrc
+terraform.rc
+.env
