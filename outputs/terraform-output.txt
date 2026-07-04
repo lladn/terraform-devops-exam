@@ -1,0 +1,5 @@
+docker_network_id = "1cd4a4e41876514e9ec9b6097856a5d3a7f00bc01bbd486dfa97c235c3f9df0b"
+health_checker_container_id = "7b29c3c1879bd2445e7e0af4ce6e2a71be63596d4681a3bfd936173d1bf8d16c"
+nginx_container_id = "f3be504429c1c5b622f301f1985b3c507de675def8539bbe0812796794cf457d"
+repository_clone_url = "http://localhost:3000/lladn/terraform-docker-exam.git"
+repository_web_url = "http://localhost:3000/lladn/terraform-docker-exam"
