@@ -54,7 +54,7 @@ variable "curl_image" {
 variable "nginx_host_port" {
   description = "Host port mapped to the Nginx container's port 80"
   type        = number
-  default     = 8080
+  default     = 8081   
 
   validation {
     condition     = var.nginx_host_port >= 1024 && var.nginx_host_port <= 65535
